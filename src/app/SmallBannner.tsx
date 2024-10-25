@@ -39,7 +39,7 @@ const SmallerBanners: React.FC = () => {
           {/* Airpod 1 */}
           <div className="w-full lg:w-[360px] h-auto bg-[#EDEDED] flex flex-col lg:flex-row items-center">
             <Image
-              className="lg:w-auto mx-auto hidden lg:flex lg:ml-4"
+              className="lg:w-[10rem] mx-auto hidden lg:flex lg:ml-4"
               src={Airpod1}
               alt="Airpod 1"
             />
