@@ -3,7 +3,6 @@
 
 
 import React, { useEffect, useState  } from 'react';
-import Image from 'next/image';
 import { Bars3CenterLeftIcon } from "@heroicons/react/24/solid";
 
 
@@ -31,10 +30,10 @@ const Navbar = ({ openNav }: Props) => {
     window.addEventListener("scroll", handler);
   } , []);
 
- const stickyStyle = navSticky ? "md:hidden hidden md:flex flex-row shadow-gray-100 shadow-sm":""
+ const stickyStyle = navSticky ? "md:hidden hidden md:flex flex-row shadow-gray-100 shadow-sm" : "";
   return (
     <nav className="bg-white shadow-sm">
-      <div className="container mx-auto ${stickyStyle}  px-8 py-6 flex items-center justify-between z-[50]">
+      <div className={`container mx-auto ${stickyStyle} px-8 py-6 flex items-center justify-between z-[50]`}>
         {/* Logo */}
         <div className="text-2xl font-bold font-sans">
           <Link href="/" className="text-black">cyber
@@ -124,5 +123,4 @@ const Navbar = ({ openNav }: Props) => {
     </nav>
   );
 };
-
 export default Navbar;

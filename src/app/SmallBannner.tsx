@@ -54,7 +54,7 @@ const SmallerBanners: React.FC = () => {
                 Apple AirPods <span className="font-bold">Max</span>
               </p>
               <p className="text-[18px] lg:text-[18px] text-[#909090] font-medium">
-                Computational audio. Listen, it's powerful.
+                Computational audio. Listen, it&apos;s powerful.
               </p>
             </div>
           </div>
